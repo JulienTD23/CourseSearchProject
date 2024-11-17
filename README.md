@@ -1,5 +1,5 @@
 # Yale Course Scheduler <br/>
-Project made to practice working with React.js. <br/>
+Project created to practice working with React.js. <br/>
 Enables users to view a list of computer science courses available at Yale. <br/>
 Users can: <br/>
 1.) Add courses to their schedule, up to a reccomended limit of 4 credits and a maximum limit of 6 credits. Classes with conflicting timeslots are highlighted. <br/>

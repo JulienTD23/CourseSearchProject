@@ -1,0 +1,28 @@
+.searchbar {
+    margin-left: 1rem;
+    min-width: 97vw;
+    max-width: 97vw;
+    max-height: 11vh;
+    min-height: 11vh;
+
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+
+    p {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    input {
+        all: unset;
+        box-sizing: border-box;
+        border: solid rgb(189, 184, 184);
+        border-radius: 5px;
+        height: 7vh;
+        width: 30vw;
+        padding: 1.5rem;
+    }
+
+}

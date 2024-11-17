@@ -1,0 +1,127 @@
+.course-list {
+    grid-area: 'botr';
+    box-sizing: border-box;
+    border: solid black;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    border-radius: 15px;
+    min-width: 66vw;
+    max-width: 66vw;
+    min-height: 83vh;
+    max-height: 83vh;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
+    margin-left: 1vw;
+    overflow: hidden;
+    transition: overflow 0.3s;
+    clip-path: inset(0 round 15px);
+    box-sizing: border-box;
+    scrollbar-gutter: stable;
+    
+    padding: 1rem;
+}
+
+.course-list:hover {
+    overflow-y: auto;
+}
+
+.whole-option {
+    display: flex;
+    align-items: center;
+    direction: ltr;
+    
+    padding: 6px;
+}
+  
+.course-option {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    justify-content: space-between;
+    cursor: pointer;    
+    box-sizing: border-box;
+    border: solid black;
+    background-color: white;
+    color: black;
+    transition: color 0.5s ease;
+    border-radius: 15px;
+    min-width: 60vw;
+    max-width: 60vw;
+    min-height: 12vh;
+    max-height: 12vh;
+    margin: 6px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-option:hover {
+    color: rgb(34, 111, 205);
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+
+}
+
+#code {
+    font-weight: 700;
+    min-width: 12%;
+    max-width: 12%;
+}
+
+#cname {
+    max-width: 30%;
+    min-width: 30%;
+    font-weight: 300;
+}
+
+#prof {
+    max-width: 17%;
+    min-width: 17%;
+    text-align: center;
+    font-weight: 500;
+}
+
+#time {
+    max-width: 27%;
+    min-width: 27%;
+    font-weight: 600;
+}
+
+.remove-button {
+    max-width: 2rem;
+    max-height: 2rem;
+    min-width: 2rem;
+    min-height: 2rem;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-left: 10px;
+}
+
+.remove-button:hover {
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+.add-button {
+    max-width: 2rem;
+    max-height: 2rem;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-left: 10px;
+}
+
+.add-button:hover {
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+.add-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
